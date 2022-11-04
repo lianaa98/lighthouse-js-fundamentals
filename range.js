@@ -11,11 +11,11 @@ function range(start, end, step) {
   } else if (step <= 0) {
     return array;
   } else {
-  array.push(start);
-  for(let i = 0; array[i] < end; i++) {
-    array.push(array[i] + step);
-  }
-  return array;
+    array.push(start);
+    for (let i = 0; array[i] < end; i++) {
+      array.push(array[i] + step);
+    }
+    return array;
   }
 }
 
